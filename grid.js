@@ -2,7 +2,7 @@
 var timeBetween = 5000;
 var cur = 1;
 var totalSecrets = 8;
-var transitionFunction = slideTransition;
+var transitionFunction = opacityTransition;
 
 function opacityTransition() {
   var result = advance();
@@ -42,7 +42,7 @@ function slideTransition() {
   window.setTimeout(transitionFunction , timeBetween);
 }
 
-function sideTransition() {
+function bumpTransition() {
   var result = advance();
   var x = 0;
   var y = 0;
@@ -94,6 +94,22 @@ function advance() {
   return out;
 }
 
+function getURLParameter(name) {
+  return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20')) || null;
+}
+
 window.onload = function() {
+  var func = getURLParameter('type');
+  switch(func) {
+    case 'opacity':
+      transitionFunction = opacityTransition;
+      break;
+    case 'bump':
+      transitionFunction = bumpTransition;
+      break;
+    case 'slide':
+      transitionFunction = slideTransition;
+      break;
+  }
   window.setTimeout(transitionFunction, timeBetween);
 };
