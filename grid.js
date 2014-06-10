@@ -95,7 +95,7 @@ function bumpTransition() {
 
 function advance() {
   var prev = cur++;
-  if (cur > 8) cur = 1;
+  if (cur > totalSecrets) cur = 1;
   var out = {};
   out.prevSecret = document.getElementById('s' + prev);
   out.curSecret = document.getElementById('s' + cur);
