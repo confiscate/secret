@@ -1,7 +1,8 @@
 @font-face {
   font-family: 'whitney_book';
   src: url('https://www.secret.ly/images/whitneycondensed-book-webfont-9de87a2dbf.eot');
-  src: url('https://www.secret.ly/images/whitneycondensed-book-webfont-9de87a2dbf.eot?#iefix')     format('embedded-opentype'), url('https://www.secret.ly/images/whitneycondensed-book-webfont-98bad64bc3.woff')
+  src: url('https://www.secret.ly/images/whitneycondensed-book-webfont-9de87a2dbf.eot?#iefix') 
+    format('embedded-opentype'), url('https://www.secret.ly/images/whitneycondensed-book-webfont-98bad64bc3.woff')
     format('woff'), url('https://www.secret.ly/images/whitneycondensed-book-webfont-430885913e.ttf')
     format('truetype'), url('https://www.secret.ly/images/whitneycondensed-book-webfont-2a7494e76d.svg#whitneycondensed_bookregular')
     format('svg');
@@ -24,7 +25,8 @@
 @font-face {
   font-family: 'whitney_medium';
   src: url('https://www.secret.ly/images/whitneycondensed-medium-webfont-99f3dd2a14.eot');
-  src: url('https://www.secret.ly/images/whitneycondensed-medium-webfont-99f3dd2a14.eot?#iefix')     format('embedded-opentype'), url('https://www.secret.ly/images/whitneycondensed-medium-webfont-2c43738c85.woff')
+  src: url('https://www.secret.ly/images/whitneycondensed-medium-webfont-99f3dd2a14.eot?#iefix')
+    format('embedded-opentype'), url('https://www.secret.ly/images/whitneycondensed-medium-webfont-2c43738c85.woff')
     format('woff'), url('https://www.secret.ly/images/whitneycondensed-medium-webfont-19de255961.ttf')
     format('truetype'), url('https://www.secret.ly/images/whitneycondensed-medium-webfont-810a62bcb7.svg#whitneycondensed_mediumregular')
     format('svg');
