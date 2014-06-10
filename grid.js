@@ -3,6 +3,7 @@ var timeBetween = 5000;
 var cur = 1;
 var totalSecrets = 8;
 var transitionFunction = opacityTransition;
+var randomNum = 0;
 
 function opacityTransition() {
   var result = advance();
@@ -48,7 +49,14 @@ function bumpTransition() {
   var y = 0;
   var moveOffset = 510;
 
-  var randomNum = Math.floor((Math.random() * 4));
+  while (true) {
+    var newNum = Math.floor((Math.random() * 4));
+    if (newNum != randomNum) {
+      randomNum = newNum;
+      break;
+    }
+  }
+
   switch(randomNum) {
     case 0:
       x = moveOffset;
