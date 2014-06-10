@@ -6,8 +6,11 @@ UX mocks for different visualizations.
 #### demos:
 
 http://www.whatnotlist.com/secret/grid.html?type=opacity
+
 http://www.whatnotlist.com/secret/grid.html?type=slide
+
 http://www.whatnotlist.com/secret/grid.html?type=bump
+
 
 
 #### Opacity:
