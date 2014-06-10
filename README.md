@@ -3,24 +3,22 @@ secret
 
 UX mocks for different visualizations.
 
-#### demos:
-
-http://www.whatnotlist.com/secret/grid.html?type=opacity
-
-http://www.whatnotlist.com/secret/grid.html?type=slide
-
-http://www.whatnotlist.com/secret/grid.html?type=bump
-
-
-
 #### Opacity:
 
 fade-in, fade-out
+
+http://www.whatnotlist.com/secret/grid.html?type=opacity
+
 
 #### Slide:
 
 fade-down, fade-up
 
+http://www.whatnotlist.com/secret/grid.html?type=slide
+
+
 #### Bump:
 
 randomly shift cards in any of the 4 directions
+
+http://www.whatnotlist.com/secret/grid.html?type=bump
