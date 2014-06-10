@@ -1,7 +1,7 @@
 secret
 =======
 
-UX mocks for different transitions. Intended to be toy prototypes only.
+UX mocks for different transitions. **Intended to be toy prototypes only--not intended for production**
 
 #### Opacity:
 
