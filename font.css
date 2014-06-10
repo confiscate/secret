@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'whitney_book';
+  src: url('https://www.secret.ly/images/whitneycondensed-book-webfont-9de87a2dbf.eot');
+  src: url('https://www.secret.ly/images/whitneycondensed-book-webfont-9de87a2dbf.eot?#iefix')     format('embedded-opentype'), url('https://www.secret.ly/images/whitneycondensed-book-webfont-98bad64bc3.woff')
+    format('woff'), url('https://www.secret.ly/images/whitneycondensed-book-webfont-430885913e.ttf')
+    format('truetype'), url('https://www.secret.ly/images/whitneycondensed-book-webfont-2a7494e76d.svg#whitneycondensed_bookregular')
+    format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'whitney_light';
+  src: url('https://www.secret.ly/images/whitneycondensed-light-webfont-d82ff68dee.eot');
+  src: url('https://www.secret.ly/images/whitneycondensed-light-webfont-d82ff68dee.eot?#iefix')
+    format('embedded-opentype'), url('https://www.secret.ly/images/whitneycondensed-light-webfont-5a68fbf15a.woff')
+    format('woff'), url('https://www.secret.ly/images/whitneycondensed-light-webfont-26e96b6bfe.ttf')
+    format('truetype'), url('https://www.secret.ly/images/whitneycondensed-light-webfont-21931a8e78.svg#whitneycondensed_lightregular')
+    format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'whitney_medium';
+  src: url('https://www.secret.ly/images/whitneycondensed-medium-webfont-99f3dd2a14.eot');
+  src: url('https://www.secret.ly/images/whitneycondensed-medium-webfont-99f3dd2a14.eot?#iefix')     format('embedded-opentype'), url('https://www.secret.ly/images/whitneycondensed-medium-webfont-2c43738c85.woff')
+    format('woff'), url('https://www.secret.ly/images/whitneycondensed-medium-webfont-19de255961.ttf')
+    format('truetype'), url('https://www.secret.ly/images/whitneycondensed-medium-webfont-810a62bcb7.svg#whitneycondensed_mediumregular')
+    format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SSGeomiconsSquared";
+  src: url('https://www.secret.ly/images/ss-geomicons-squared-028fe9f2fa.eot');
+  src: url('https://www.secret.ly/images/ss-geomicons-squared-028fe9f2fa.eot?#iefix')
+    format('embedded-opentype'), url('https://www.secret.ly/images/ss-geomicons-squared-542d0c2559.woff')       
+    format('woff'), url('https://www.secret.ly/images/ss-geomicons-squared-b28ea77d4c.ttf')
+    format('truetype'), url('https://www.secret.ly/images/ss-geomicons-squared-79f349f01b.svg#SSGeomiconsSquared')
+  format('svg');  font-weight: 400;
+  font-style: normal;
+}

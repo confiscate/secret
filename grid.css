@@ -1,0 +1,102 @@
+html {
+  font-size: 12pt;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url('https://www.secret.ly/images/girlandmask-ddfecf475d.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-color: #fff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 0;
+  font-size: 2.75rem;
+  margin: 0;
+  font-family: 'whitney_light';
+  color: #222;
+}
+p.secret-message {
+  display: table-cell;
+  margin: 0;
+  padding: 0 32px;
+  color: #fff;
+  font-family: whitney_medium;
+  font-size: 42px;
+  line-height: 42px;
+  vertical-align: middle;
+  text-align: center;
+}
+p.secret-message-white {
+  color: #444;
+  border-right: 1px solid #eee;
+}
+div.secret-content {
+  position: absolute;
+  margin: 0;
+  width: 510px;
+  height: 510px;
+  overflow: hidden;
+}
+div.message-wrapper {
+  display: table;
+  height: 510px;
+  width: 510px;
+}
+div.secret-stats {
+  position: relative;
+  height: 35px;
+  margin: -50px 30px 0 0;
+}
+div.secret-stats ul {
+  display: inline;
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+div.secret-stats ul li {
+  display: block;
+  float: left;
+  color: #fff;
+  font-family: whitney_medium;
+  font-size: 27px;
+  padding: 0;
+  list-style: none;
+  height: 30px;
+  padding: 0 0 0 40px;
+  margin: 0 0 0 30px;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+}
+div.secret-stats ul li.comments {
+  background-image: url(https://www.secret.ly/images/icon-comment-fill-30-be59264659.png);
+}
+div.secret-stats ul li.hearts {
+  background-image: url(https://www.secret.ly/images/icon-heart-fill-30-01edadc878.png);
+}
+div.secret-image, div.secret-image img {
+  width: 510px;
+  height: 510px;
+}
+#container {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  margin-left: -255px;
+  margin-top: -255px;
+  height: 510px;
+  width: 510px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+.secret-box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  transition: 0.5s linear all;
+}
