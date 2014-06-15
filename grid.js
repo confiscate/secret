@@ -49,13 +49,13 @@ function bumpTransition() {
   var y = 0;
   var moveOffset = 510;
 
-  while (true) {
-    var newNum = Math.floor((Math.random() * 4));
-    if (newNum != randomNum) {
-      randomNum = newNum;
-      break;
-    }
+  // Randomly choose 1 out of 3 numbers in the range [0..4]
+  // that is not equal to the current randomNum
+  var newNum = Math.floor((Math.random() * 3));
+  if (newNum >= randomNum) {
+     newNum++;
   }
+  randomNum = newNum;
 
   switch(randomNum) {
     case 0:
